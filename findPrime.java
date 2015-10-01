@@ -7,7 +7,10 @@ public class findPrime {
 			System.out.println(num+" "+"is not Prime");
 		}
 		else{
-			if ((num%2==0)||(num%3==0)){
+			if (num==2||num==3){
+				System.out.println(num+" "+"is Prime");
+			}
+			else if ((num%2==0)||(num%3==0)){
 				System.out.println(num+" "+"is not Prime");
 			}
 			else{
