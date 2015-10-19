@@ -4,6 +4,7 @@ public class Reverse {
 	String SentenceReverse(String s){
 		
 		String buff="";
+		// use StringBuilder.
 		String result="";
 		for(int i=s.length()-1;i>=0;i--){
 		  buff+=i!=0?s.charAt(i):s.charAt(i)+" ";	

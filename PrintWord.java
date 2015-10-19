@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// where is the junit?
 public class PrintWord {
 	void findWord(String s){
 		String[] buff=s.split(" ");

@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class UpperCase {
 	String ctoUpperCase(String s){
+		// indentation
+		// if you want to append char as a String, please use StringBuilder to append
 		String result="";
 		for(int n=0;n<s.length();n++){
 			if(n!=0){
